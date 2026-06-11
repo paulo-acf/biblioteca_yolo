@@ -10,7 +10,7 @@
 
 ### 
 
-### Numa tentativa de tornar este projeto mais didático, foram acrescentados comentários junto ao código (a ideia é tentar facilitar o entendimento ou mesmo uma futura revisão — "A revisão é a mãe da retenção.").
+### Numa tentativa de tornar este projeto mais didático, foram acrescentados comentários junto ao código (a ideia é tentar facilitar o entendimento ou mesmo uma futura revisão - "A revisão é a mãe da retenção.").
 
 
 
