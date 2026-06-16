@@ -14,18 +14,27 @@ from ultralytics import YOLO
 #    • Aqui, a rede neural analisa a imagem inteira em uma única passada
 import os # --> Módulo padrão do Python que dá acesso a pastas, arquivos etc.
 
+
+
+
 BASE_DIR = os.path.dirname(__file__)
 # BASE_DIR:
 #    • Pega a pasta onde o arquivo .py está localizado
 #    • Está em maiúscula porque é uma constante (é um valor que não deve mudar)
 # __file__ --> Variável especial do Python que representa o caminho do arquivo atual
 # os.path.dirname(...) --> Função que remove o nome do arquivo e deixa apenas o nome do diretório
+data=os.path.join(BASE_DIR, "train")
+
+
+
 
 model = YOLO("yolo11n-cls.pt") # --> Objeto (instância da classe YOLO)
 # YOLO( ) --> Cria um modelo YOLO
 # "yolo11n-cls.pt" --> carrega um modelo pré-treinado.
 # 11 --> versão do YOLO
-# n --> Diferentes tamanhos de modelos (n, s, m, l, x --> nano, small, medium, large, extra-large)
+# n --> Diferentes tamanhos de modelos:
+#    • n, s, m, l, x --> nano, small, medium, large, extra-large
+#    • nano (celulares), small (tempo real leve), medium (uso geral), large (GPU poderosa), extra-large (máxima precisão)
 # cls --> Classification (para classificação de imagens)
 # .pt --> Arquivo de pesos do PyTorch (biblioteca usada para criar e treinar •redes neurais e •modelos de IA)
 
