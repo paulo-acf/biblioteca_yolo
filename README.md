@@ -19,6 +19,10 @@
 #### git clone https://github.com/paulo-acf/biblioteca_yolo
 
 
+## **• Para entrar na pasta do projeto:**
+
+#### cd biblioteca_yolo
+
 
 ## **• Para criar o ambiente virtual:**
 
